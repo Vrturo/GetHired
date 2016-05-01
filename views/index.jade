@@ -1,5 +1,141 @@
-extends layout
+doctype html
+html.
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>GetHired</title>
+        <link href="stylesheets/style.css" rel="stylesheet" type="text/css" />
+    </head>
 
-block content
-  h1= title
-  p Welcome to #{title}
+      <body>
+      <div id="container">
+        <div id="logo">
+          <h1>GetHired</h1>
+        </div>
+
+        <hr/>
+
+        <div id="rightBox">
+          <h2>Works</h2>
+          <div id="digitalWorks">
+            <h3 id="digital">Digital</h3>
+            <ul class="workNav" id="dNav"><!-- #dNav refers to digital works nav -->
+              <li><a class="prev" href="#">Previous</a></li>
+              <li><a class="next" href="#">Next</a></li>
+            </ul>
+            <div class="imageContainer" id="digitalImages">
+            <ul>
+            <!-- image for work1 -->
+            <li><a href="images/works/sample_1.jpg"><img src="images/works/sample_1_thumb.jpg" width="405" height="160" alt=""/></a></li>
+            <!-- image for work2 -->
+            <li><a href="images/works/sample_3.jpg"><img src="images/works/sample_3_thumb.jpg" width="405" height="160" alt=""/></a></li>
+            <!-- image for work3 -->
+            <li><a href="images/works/sample_5.jpg"><img src="images/works/sample_5_thumb.jpg" width="405" height="160" alt=""/></a></li>
+            </ul>
+            </div>
+
+            <div class="infoContainer" id="digitalInfos">
+            <ul>
+          <!-- description for work1 -->
+            <li><span>Envato Corporate Website</span> <a class="visitLink" href="http://www.envato.com/">visit</a></li>
+          <!-- description for work2 -->
+            <li><span>One Page Portfolio Template</span> <a class="visitLink" href="http://www.themeforest.net/item/one-page-portfolio-site-template/17308">visit</a></li>
+          <!-- description for work3 -->
+            <li><span>Blog Action Day</span> <a class="visitLink" href="http://blogactionday.org/">visit</a></li>
+            </ul>
+            </div>
+          </div><!-- end of #digitalWorks -->
+
+
+          <div id="printWorks">
+            <h3 id="print">Print</h3>
+            <ul class="workNav" id="pNav"><!-- #pNav refers to print works nav -->
+              <li><a class="pprev" href="#">Previous</a></li>
+              <li><a class="pnext" href="#">Next</a></li>
+            </ul>
+            <div class="imageContainer" id="printImages">
+            <ul>
+            <li><a href="images/works/sample_4.jpg"><img src="images/works/sample_4_thumb.jpg" width="405" height="160" alt=""/></a></li>
+            <li><a href="images/works/sample_2.jpg"><img src="images/works/sample_2_thumb.jpg" width="405" height="160" alt=""/></a></li>
+            <li><a href="images/works/sample_6.jpg"><img src="images/works/sample_6_thumb.jpg" width="405" height="160" alt=""/></a></li>
+            </ul>
+            </div>
+            <div class="infoContainer" id="printInfos">
+            <ul>
+            <li><span>NETTuts</span> <a class="visitLink viewLink" href="http://www.nettuts.com/">view</a></li>
+            <li><span>PSDTuts</span> <a class="visitLink viewLink" href="http://www.nettuts.com/">view</a></li>
+            <li><span>VECTORTuts</span> <a class="visitLink viewLink" href="http://www.vectortuts.com/">view</a></li>
+            </ul>
+            </div>
+          </div><!-- end of #printWorks -->
+
+        </div><!-- end of #rightBox -->
+        <hr/>
+        <div id="leftBox">
+          <div id="expandingContainer">
+
+          <div class="contentBox">
+          <h2 class="selected" id="hWelcome"><span>Welcome</span></h2><!-- span is to hide the text, which are replaced with image text -->
+          <div class="content" id="welcome">
+            <p class="intro">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa <span class="yellow">quae ab illo</span> inventore veritatis et quasi. </p>
+            <p>Aenean <a href="#">commodo</a> ligula eget dolor. </p>
+            <p>Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean massa.</p>
+          </div><!-- end of .content -->
+          </div><!-- end of .contentBox -->
+
+          <div class="contentBox">
+          <h2 id="hServices"><span>Services</span></h2>
+          <div class="content">
+            <p class="intro">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi. </p>
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi. </p>
+            <p>Aenean commodo ligula eget dolor. <span class="yellow">Aenean massa</span>. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+      <p>Architecto beatae vitae dicta sunt explicabo.</p>
+          </div><!-- end of .content -->
+          </div><!-- end of .contentBox -->
+
+          <div class="contentBox">
+          <h2 id="hClients"><span>Clients</span></h2>
+          <div class="content">
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi. </p>
+            <p>Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+            <p>Architecto beatae vitae dicta sunt explicabo.</p>
+          </div><!-- end of .content -->
+          </div><!-- end of .contentBox -->
+
+          <div class="contentBox">
+        <h2 id="hContact"><span>Contact</span></h2>
+          <div class="content" id="contact">
+          <p class="fLeft">Your Name:<br />
+            <label class="smallInput">
+              <input name="textfield" type="text" size="15" />
+            </label>
+          </p>
+          <p class="fLeft">Your Email:<br />
+            <label class="smallInput">
+              <input name="textfield" type="text" size="15" />
+            </label>
+          </p>
+          <p class="textarea">Your Message<br />
+            <label class="textarea">
+              <textarea name="textfield4" rows="6" cols="40"></textarea>
+            </label>
+          </p>
+          <p>
+          <input type="submit" value="Send" />
+          </p>
+          </div><!-- end of .content -->
+          </div><!-- end of .contentBox -->
+
+          </div><!-- end of expandingContainer -->
+
+          <hr/>
+
+          <div id="footer">
+            <p>Lorem Ipsum St. Dolor S. Ave.  34257 - NY</p>
+            <p>1 55 255 314</p>
+            <p>info@email.com</p>
+          </div><!-- end of #footer -->
+
+        </div><!-- end of #leftBox -->
+      </div><!-- end of #container -->
+      </body>
+    </html>
