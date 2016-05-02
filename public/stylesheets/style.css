@@ -1,20 +1,20 @@
 
 /**********************  GENERAL SETTINGS *********************/
-body {font: 10pt "Lucida Sans Unicode", "Lucida Grande", sans-serif;	color: #999;	background: url(images/bg.jpg) no-repeat #1b1f1e;	margin:0;}
+body {font: 10pt "Lucida Sans Unicode", "Lucida Grande", sans-serif;	color: #999;	background: url(../images/bg.jpg) no-repeat #1b1f1e;	margin:0;}
 form, p,h1,h2,h3,h4  {	margin:0;	padding:0;}
 ul, ol {margin:0; padding:0; list-style:none;}
 img {border:0;}
 hr {display:none;}
-	
+
 /*********************************************/
 
-#container {background:url(images/bg_container.gif) no-repeat 0px 165px;	padding-left:45px;	padding-top:45px;	width:935px;}
+#container {background:url(../images/bg_container.gif) no-repeat 0px 165px;	padding-left:45px;	padding-top:45px;	width:935px;}
 
-div#logo {background:url(images/logo.jpg) no-repeat;	width:163px;	height:70px;}
-div#logo h1 {	display:none;	}	
-	
+div#logo {background:url(../images/logo.jpg) no-repeat;	width:163px;	height:70px;}
+div#logo h1 {	display:none;	}
+
 #rightBox {	width:405px;	float:right; position:relative; margin-top:25px;}
-#rightBox h3 {text-transform:uppercase; font-weight:lighter; font-size:9pt; color:#626564; position:absolute; background:url(images/bg_headingdash.gif) no-repeat;
+#rightBox h3 {text-transform:uppercase; font-weight:lighter; font-size:9pt; color:#626564; position:absolute; background:url(../images/bg_headingdash.gif) no-repeat;
 display:block; width:100%;}
 
 #digitalWorks {border-bottom:1px solid #313531; padding-bottom:50px; margin-bottom:50px;}
@@ -24,10 +24,10 @@ display:block; width:100%;}
 div.iHover {width:395px; height:150px; border:5px solid #fff; position:absolute;}
 div.iHover a {width:395px; height:150px; text-indent:-9999px; display:block;}
 
-.infoContainer ul li {background:url(images/icon_info.gif) no-repeat 10px #fff; font-size:0.9em; height:29px; position:relative; padding:11px 0 0 25px;}
-a.visitLink {background:url(images/icon_cursor.gif) no-repeat 10px ; display:block; border-left:1px solid #1b1f1e; color:#39464a; text-decoration:none; right:0; top:0; position:absolute;
+.infoContainer ul li {background:url(../images/icon_info.gif) no-repeat 10px #fff; font-size:0.9em; height:29px; position:relative; padding:11px 0 0 25px;}
+a.visitLink {background:url(../images/icon_cursor.gif) no-repeat 10px ; display:block; border-left:1px solid #1b1f1e; color:#39464a; text-decoration:none; right:0; top:0; position:absolute;
 width:32px; height:29px; padding:11px 0 0 25px;}
-a.viewLink {background:url(images/icon_view.gif) no-repeat 10px ;}
+a.viewLink {background:url(../images/icon_view.gif) no-repeat 10px ;}
 
 
 ul.workNav {position:absolute; left:-35px;}
@@ -41,11 +41,11 @@ ul#dNav {top:163px;} /* set vertical position for digital works prev and next na
 ul#pNav {top:465px;} /* set vertical position for print works prev and next nav */
 
 
-ul.workNav li a.prev, ul.workNav li a.pprev {background:url(images/arrow_up_off.gif) no-repeat}
-ul.workNav li a.prev:hover, ul.workNav li a.pprev:hover {background:url(images/arrow_up_on.gif) no-repeat;}
+ul.workNav li a.prev, ul.workNav li a.pprev {background:url(../images/arrow_up_off.gif) no-repeat}
+ul.workNav li a.prev:hover, ul.workNav li a.pprev:hover {background:url(../images/arrow_up_on.gif) no-repeat;}
 
-ul.workNav li a.next, ul.workNav li a.pnext {background:url(images/arrow_down_off.gif) no-repeat}
-ul.workNav li a.next:hover, ul.workNav li a.pnext:hover {background:url(images/arrow_down_on.gif) no-repeat}
+ul.workNav li a.next, ul.workNav li a.pnext {background:url(../images/arrow_down_off.gif) no-repeat}
+ul.workNav li a.next:hover, ul.workNav li a.pnext:hover {background:url(../images/arrow_down_on.gif) no-repeat}
 
 #rightBox h2 {	display:none;}
 
@@ -57,11 +57,11 @@ ul.workNav li a.next:hover, ul.workNav li a.pnext:hover {background:url(images/a
 #leftBox p.intro {color:#e2e6da;}
 
 /**** This is where the accordion headers come from as graphic text ****/
-/**** each of these images are saved as one single gif file containing both states (normal/selected) of the link ****/
-h2#hWelcome {background:url(images/header_welcome.gif) no-repeat;}
-h2#hServices {background:url(images/header_services.gif) no-repeat;}
-h2#hClients {background:url(images/header_clients.gif) no-repeat;}
-h2#hContact {background:url(images/header_contact.gif) no-repeat;}
+/**** each of these ../images are saved as one single gif file containing both states (normal/selected) of the link ****/
+h2#hWelcome {background:url(../images/header_welcome.gif) no-repeat;}
+h2#hServices {background:url(../images/header_services.gif) no-repeat;}
+h2#hClients {background:url(../images/header_clients.gif) no-repeat;}
+h2#hContact {background:url(../images/header_contact.gif) no-repeat;}
 #leftBox h2.selected { background-position:left -19px;}
 h2 span {display:none;}
 
@@ -78,5 +78,5 @@ p.textarea {clear:both;}
 
 
 
-div#footer {position:absolute; bottom:0; border-left:12px solid #91948c; left:-45px; padding-left:45px; background:url(images/bg_footer.gif) no-repeat 15px top; height:68px;}
+div#footer {position:absolute; bottom:0; border-left:12px solid #91948c; left:-45px; padding-left:45px; background:url(../images/bg_footer.gif) no-repeat 15px top; height:68px;}
 #footer p {color:#65685f; font-size:0.8em; margin-bottom:11px}
